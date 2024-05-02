@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weather-system/static/css/main.e85b9096.css",
+    "main.js": "/weather-system/static/js/main.368fd968.js",
+    "static/media/logo.png": "/weather-system/static/media/logo.778c8a730c9b469d4784.png",
+    "index.html": "/weather-system/index.html",
+    "main.e85b9096.css.map": "/weather-system/static/css/main.e85b9096.css.map",
+    "main.368fd968.js.map": "/weather-system/static/js/main.368fd968.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e85b9096.css",
+    "static/js/main.368fd968.js"
+  ]
+}
