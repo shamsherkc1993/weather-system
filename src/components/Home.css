@@ -1,0 +1,91 @@
+.main-div {
+  background-color: #03bfe4;
+  padding: 30px !important;
+  border-radius: 10px;
+  width: 30rem !important;
+  margin: 8rem auto 4rem !important;
+  height: 30rem;
+}
+
+.main-div input {
+  border-radius: 30px;
+  border: none;
+  width: 17rem;
+  margin: 0 auto;
+}
+
+.city-name {
+  text-align: center;
+  font-weight: 20px;
+  font-weight: bold;
+  color: #fff !important;
+  margin-top: 2rem !important;
+  text-transform: uppercase;
+}
+.logoimg {
+  height: 30%;
+  width: 30%;
+  margin-left: 9rem;
+}
+
+.error-msg {
+  position: absolute;
+  top: 26% !important;
+  left: 46%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.fa-city {
+  color: #ffc13d;
+  font-size: 30px !important;
+  padding-right: 10px;
+}
+
+.temp {
+  font-size: 80px !important;
+  font-weight: bolder;
+  color: #ffc13d;
+  text-align: center;
+}
+
+.maxmin li {
+  list-style: none;
+  color: #fff;
+  float: left;
+  padding: 0 10px;
+}
+
+.title {
+  color: #ffc13d !important;
+  font-weight: 900;
+  font-weight: 20px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-div input {
+    width: 13rem;
+  }
+  .maxmin li {
+    padding: 0 !important;
+  }
+  .logoimg {
+    height: 20%;
+    width: 30%;
+    margin-left: 6rem;
+  }
+
+  .temp {
+    font-size: 48px !important;
+  }
+  .maxmin li {
+    padding: 0 0 !important;
+  }
+  .error-msg {
+    top: 38% !important;
+    left: 35%;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
