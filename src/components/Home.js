@@ -41,7 +41,7 @@ const Home = () => {
           <img src={logoimage} alt="logoimage" className="logoimg" />
 
           {!city ? (
-            <p className="error-msg">No City Found</p>
+            <p className="error-msg">No Country/City Found</p>
           ) : (
             <>
               <p className="temp">{city.temp}</p>
